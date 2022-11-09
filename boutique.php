@@ -196,7 +196,8 @@ $content .= '</div>'; // Fermeture div container
 <!---------------------------------------------- PARTIE AFFICHAGE -->
 <?php require_once './inc/header.inc.php'; ?>
 
-<h1 class="text-center">Boutique</h1>
+<h1 class="text-center display-4 lead m-5">Boutique</h1>
+
 
 <?= $content ?>
 

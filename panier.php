@@ -60,10 +60,10 @@ if (isset($_POST['payer'])) {
 
     // S'il n'y a pas de problème sur le stock
 
- 
+
 
     if(!isset($error)){
-      $pdo->query("INSERT INTO commande (id_membre,montant,date_enregistrement,etat) VALUES('".$_SESSION['membre']['id_membre']."','".montantTotal()."',NOW(),'en cours de traitement')");
+        $pdo->query("INSERT INTO commande (id_membre,montant,date_enregistrement,etat) VALUES('".$_SESSION['membre']['id_membre']."','".montantTotal()."',NOW(),'en cours de traitement')");
 
         $idCommande = $pdo->lastInsertId();
 
@@ -81,14 +81,7 @@ if (isset($_POST['payer'])) {
 
         unset($_SESSION['panier']);
 
-
-
-
-        
     }
-
-
-
 
 
 } 
@@ -151,7 +144,8 @@ $content .= '</div>';
 
 <?php require_once('./inc/header.inc.php') ?>
 
-<h1 class="text-center">Panier</h1>
+<h1 class="text-center display-4 lead m-2 text-muted">Panier</h1>
+
 <?= $content ?>
 
 <?php require_once('./inc/footer.inc.php') ?>

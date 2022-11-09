@@ -81,7 +81,8 @@ if(empty($erreur))
 <?php require_once './inc/header.inc.php'; ?>
 
 
-<h1 class="text-center">Inscription</h1>
+<h1 class="text-center display-4 lead m-5">Inscription</h1>
+
 
 <div class="container">
     <?= $content; ?>

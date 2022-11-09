@@ -68,7 +68,8 @@ if ($_POST) {
 <!--PARTIE AFFICHAGE -->
 <?php require_once('./inc/header.inc.php'); ?>
 
-<h1 class="text-center text-muted">Connexion</h1>
+<h1 class="text-center display-4 lead m-5 text-muted">Connexion</h1>
+
 
 <div class="container">
 

@@ -67,7 +67,7 @@ if($produit['stock'] >0){
 <!---------------------------------------------- PARTIE AFFICHAGE -->
 <?php require_once './inc/header.inc.php'; ?>
 
-<h6 class="text-center text-muted">fiche produit</h6>
+<h1 class="text-center display-4 lead m-5">Fiche produit</h1>
 
 <?= $content; ?>
 

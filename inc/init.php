@@ -21,6 +21,6 @@ session_start();
 
 require_once 'function.php';
 
-define('URL','http://localhost/php/boutiqueFinal/');
+define('URL','http://localhost/php/boutique/');
 
-define('RACINE', $_SERVER['DOCUMENT_ROOT'] .'/php/boutiqueFinal/');
+define('RACINE', $_SERVER['DOCUMENT_ROOT'] .'/php/boutique/');

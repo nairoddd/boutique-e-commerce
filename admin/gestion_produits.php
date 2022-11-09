@@ -83,7 +83,7 @@ if ($_POST) {
 
         if (empty($img_bdd)) {// Si $img_bdd est vide alors il n'y a pas d'image
 
-            $img_bdd = 'http://localhost/php/boutiqueFinal/photo/1666679402_A1632ZHJzfez_image_not_found.png'; // Ceci est une image par défaut que j'ai ajouté dans ma bdd
+            $img_bdd = 'http://localhost/php/boutique/photo/1666679402_A1632ZHJzfez_image_not_found.png'; // Ceci est une image par défaut que j'ai ajouté dans ma bdd
 
             $content .= '<div class="alert alert-info" role="alert text-center">Vous avez une image par défaut pour le produit</div>';
         }
